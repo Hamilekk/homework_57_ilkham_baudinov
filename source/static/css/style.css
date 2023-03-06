@@ -1,0 +1,31 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.bg-body-tertiary {
+    background-color: black !important;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.active {
+    color: white !important;
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.text p{
+    font-size: 20px;
+}
