@@ -15,7 +15,7 @@ class AddTask(TemplateView):
     def post(self, request, *args, **kwargs):
         form = TaskForm(data=request.POST)
         if not form.is_valid():
-            return render(request, 'add_task.html', context={
+            return render(request, 'task_add.html', context={
                 'form': form
             })
         else:
